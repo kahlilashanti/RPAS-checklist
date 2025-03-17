@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/RPAS-checklist/static/css/main.d221dc40.css",
+    "main.js": "/RPAS-checklist/static/js/main.03683371.js",
+    "service-worker.js": "/RPAS-checklist/service-worker.js",
+    "index.html": "/RPAS-checklist/index.html",
+    "main.d221dc40.css.map": "/RPAS-checklist/static/css/main.d221dc40.css.map",
+    "main.03683371.js.map": "/RPAS-checklist/static/js/main.03683371.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d221dc40.css",
+    "static/js/main.03683371.js"
+  ]
+}
