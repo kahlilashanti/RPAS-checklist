@@ -2,7 +2,7 @@
   "name": "rpas-checklist",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yourusername.github.io/your-repo-name",
+  "homepage": "https://kahlilashanti.github.io/RPAS-checklist",
   "dependencies": {
     "bootstrap": "^5.3.3",
     "cra-template-pwa": "2.0.0",
