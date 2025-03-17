@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
@@ -11,4 +10,11 @@ root.render(
   </React.StrictMode>
 );
 
-serviceWorkerRegistration.register();
+serviceWorkerRegistration.register({
+  onUpdate: registration => {
+    if (window.confirm('A new version is available. Reload to update?')) {
+      registration.waiting.postMessage({ type: 'SKIP_WAITING' });
+      window.location.reload();
+    }
+  }
+});
